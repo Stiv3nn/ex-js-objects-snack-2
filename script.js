@@ -51,32 +51,32 @@
 //----------------------------------------------------------------------------------------------------------------------------------------
 
 // 🏆 Code Question 4
-const chef = {
-    name: "Chef Hyur",
-    age: 29,
-    makeBurger: (num = 1) => {
-        console.log(`Ecco ${num} hamburger per te!`);
-    },
-}
+// const chef = {
+//     name: "Chef Hyur",
+//     age: 29,
+//     makeBurger: (num = 1) => {
+//         console.log(`Ecco ${num} hamburger per te!`);
+//     },
+// }
 
-const chefCopia = {...chef};
+// const chefCopia = {...chef};
 
-console.log(chefCopia);
+// console.log(chefCopia);
 
-// Qual è il metodo migliore per clonare l’oggetto chef, e perché? SPREAD OPERATOR, perchè mi copia la funzione in modo corretto
+// // Qual è il metodo migliore per clonare l’oggetto chef, e perché? SPREAD OPERATOR, perchè mi copia la funzione in modo corretto
 
-const restaurant = {
-    name: "Hyur's Burgers",
-    address: {
-        street: 'Main Street',
-        number: 123,
-    },
-    openingDate: new Date(2025, 3, 11),
-    isOpen: false,
-};
+// const restaurant = {
+//     name: "Hyur's Burgers",
+//     address: {
+//         street: 'Main Street',
+//         number: 123,
+//     },
+//     openingDate: new Date(2025, 3, 11),
+//     isOpen: false,
+// };
 
-const restaurantCopy = structuredClone(restaurant);
+// const restaurantCopy = structuredClone(restaurant);
 
-console.log(restaurantCopy);
+// console.log(restaurantCopy);
 
 // Qual è il metodo migliore per clonare l’oggetto restaurant, e perché? structuredClone(), perchè mi copia gli oggetti particolari, in questo caso l'oggetto data in maniera corretta
